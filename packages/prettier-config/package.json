@@ -1,17 +1,21 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@ryanarora/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal Prettier config",
-  "main": "index.cjs",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/ryanArora/style/tree/main",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanArora/style.git",
     "directory": "packages/prettier-config"
   },
-  "homepage": "https://github.com/ryanArora/style/tree/main",
-  "author": "Ryan Arora <arora.ryan@gmail.com>",
   "license": "MIT",
+  "author": "Ryan Arora <arora.ryan@gmail.com>",
+  "main": "index.cjs",
   "dependencies": {
     "prettier-plugin-jsdoc": "^0.4.2"
   },
