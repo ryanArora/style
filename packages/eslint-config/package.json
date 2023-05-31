@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@ryanarora/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint config",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "homepage": "https://github.com/ryanArora/style/tree/main",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanArora/style.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT",
+  "author": "Ryan Arora <arora.ryan@gmail.com>",
+  "main": "base.cjs",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-no-relative-import-paths": "^1.5.2",
+    "eslint-plugin-tailwindcss": "^3.12.1",
+    "prettier-plugin-jsdoc": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.40.0",
+    "@types/prettier": "^2.7.2"
+  }
+}
